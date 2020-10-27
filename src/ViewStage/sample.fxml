@@ -144,57 +144,57 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Button fx:id="p1_1_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Button fx:id="p1_1_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <Button fx:id="p1_2_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                <Button fx:id="p1_3_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                <Button fx:id="p1_4_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                <Button fx:id="p1_5_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                <Button fx:id="p1_6_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                <Button fx:id="p1_7_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                <Button fx:id="p1_8_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="1">
+                <Button fx:id="p1_9_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Button fx:id="p1_1_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                <Button fx:id="p1_2_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
@@ -202,397 +202,397 @@
                         <Cursor fx:constant="DEFAULT" />
                     </cursor>
                 </Button>
-                <Button fx:id="p1_3_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <Button fx:id="p1_3_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                <Button fx:id="p1_4_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                <Button fx:id="p1_5_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                <Button fx:id="p1_6_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                <Button fx:id="p1_7_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                <Button fx:id="p1_8_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="2">
+                <Button fx:id="p1_9_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <Button fx:id="p1_1_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <Button fx:id="p1_2_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                <Button fx:id="p1_3_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                <Button fx:id="p1_4_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <Button fx:id="p1_5_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                <Button fx:id="p1_6_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                <Button fx:id="p1_7_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                <Button fx:id="p1_8_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="3">
+                <Button fx:id="p1_9_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <Button fx:id="p1_1_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <Button fx:id="p1_2_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                <Button fx:id="p1_3_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                <Button fx:id="p1_4_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                <Button fx:id="p1_5_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                <Button fx:id="p1_6_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                <Button fx:id="p1_7_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                <Button fx:id="p1_8_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                <Button fx:id="p1_9_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <Button fx:id="p1_1_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <Button fx:id="p1_2_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                <Button fx:id="p1_3_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                <Button fx:id="p1_4_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                <Button fx:id="p1_5_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                <Button fx:id="p1_6_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                <Button fx:id="p1_7_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                <Button fx:id="p1_8_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                <Button fx:id="p1_9_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                <Button fx:id="p1_1_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                <Button fx:id="p1_2_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                <Button fx:id="p1_3_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                <Button fx:id="p1_4_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                <Button fx:id="p1_5_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                <Button fx:id="p1_6_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                <Button fx:id="p1_7_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                <Button fx:id="p1_8_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                <Button fx:id="p1_9_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                <Button fx:id="p1_1_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                <Button fx:id="p1_2_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                <Button fx:id="p1_3_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                <Button fx:id="p1_4_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                <Button fx:id="p1_5_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                <Button fx:id="p1_6_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                <Button fx:id="p1_7_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                <Button fx:id="p1_8_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                <Button fx:id="p1_9_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                <Button fx:id="p1_1_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                <Button fx:id="p1_2_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                <Button fx:id="p1_3_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                <Button fx:id="p1_4_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                <Button fx:id="p1_5_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                <Button fx:id="p1_6_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                <Button fx:id="p1_7_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                <Button fx:id="p1_8_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="8">
+                <Button fx:id="p1_9_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                <Button fx:id="p1_1_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                <Button fx:id="p1_2_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                <Button fx:id="p1_3_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                <Button fx:id="p1_4_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                <Button fx:id="p1_5_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                <Button fx:id="p1_6_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                <Button fx:id="p1_7_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                <Button fx:id="p1_8_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                <Button fx:id="p1_9_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_1_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                <Button fx:id="p1_1_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_2_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                <Button fx:id="p1_2_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_3_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                <Button fx:id="p1_3_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_4_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                <Button fx:id="p1_4_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_5_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                <Button fx:id="p1_5_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_6_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                <Button fx:id="p1_6_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_7_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                <Button fx:id="p1_7_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_8_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                <Button fx:id="p1_8_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_9_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                <Button fx:id="p1_9_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
@@ -602,52 +602,52 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Button fx:id="p1_0_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="p1_0_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <Button fx:id="p1_0_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <Button fx:id="p1_0_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <Button fx:id="p1_0_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <Button fx:id="p1_0_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                <Button fx:id="p1_0_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                <Button fx:id="p1_0_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                <Button fx:id="p1_0_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                <Button fx:id="p1_0_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p1_0_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                <Button fx:id="p1_0_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane1" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
@@ -668,7 +668,7 @@
             </font>
         </Label>
       <TextField fx:id="tfPlayer1" layoutX="30.0" layoutY="80.0" prefHeight="25.0" prefWidth="385.0" promptText="Имя первого игрока" />
-        <Button fx:id="btnReadyPlayer1" layoutX="72.0" layoutY="530.0" maxWidth="301.0" minWidth="301.0" mnemonicParsing="false" onAction="#onReadyPlayer1" prefWidth="301.0" text="ГОТОВО" textFill="#424242">
+        <Button fx:id="btnReadyPlayer1" disable="true" layoutX="72.0" layoutY="530.0" maxWidth="301.0" minWidth="301.0" mnemonicParsing="false" onAction="#onReadyPlayer1" prefWidth="301.0" text="ГОТОВО" textFill="#424242">
             <font>
                 <Font name="System Bold" size="18.0" />
             </font>
@@ -806,57 +806,57 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Button fx:id="p2_1_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Button fx:id="p2_1_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <Button fx:id="p2_2_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                <Button fx:id="p2_3_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                <Button fx:id="p2_4_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                <Button fx:id="p2_5_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                <Button fx:id="p2_6_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                <Button fx:id="p2_7_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                <Button fx:id="p2_8_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="1">
+                <Button fx:id="p2_9_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Button fx:id="p2_1_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                <Button fx:id="p2_2_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
@@ -864,397 +864,397 @@
                         <Cursor fx:constant="DEFAULT" />
                     </cursor>
                 </Button>
-                <Button fx:id="p2_3_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                <Button fx:id="p2_3_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                <Button fx:id="p2_4_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                <Button fx:id="p2_5_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                <Button fx:id="p2_6_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                <Button fx:id="p2_7_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                <Button fx:id="p2_8_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="2">
+                <Button fx:id="p2_9_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <Button fx:id="p2_1_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <Button fx:id="p2_2_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                <Button fx:id="p2_3_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                <Button fx:id="p2_4_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                <Button fx:id="p2_5_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                <Button fx:id="p2_6_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                <Button fx:id="p2_7_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                <Button fx:id="p2_8_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="3">
+                <Button fx:id="p2_9_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                <Button fx:id="p2_1_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                <Button fx:id="p2_2_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                <Button fx:id="p2_3_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                <Button fx:id="p2_4_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                <Button fx:id="p2_5_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                <Button fx:id="p2_6_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                <Button fx:id="p2_7_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                <Button fx:id="p2_8_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                <Button fx:id="p2_9_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <Button fx:id="p2_1_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <Button fx:id="p2_2_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                <Button fx:id="p2_3_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                <Button fx:id="p2_4_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                <Button fx:id="p2_5_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                <Button fx:id="p2_6_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                <Button fx:id="p2_7_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                <Button fx:id="p2_8_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                <Button fx:id="p2_9_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                <Button fx:id="p2_1_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                <Button fx:id="p2_2_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                <Button fx:id="p2_3_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                <Button fx:id="p2_4_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                <Button fx:id="p2_5_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                <Button fx:id="p2_6_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                <Button fx:id="p2_7_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                <Button fx:id="p2_8_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                <Button fx:id="p2_9_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                <Button fx:id="p2_1_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                <Button fx:id="p2_2_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                <Button fx:id="p2_3_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                <Button fx:id="p2_4_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                <Button fx:id="p2_5_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                <Button fx:id="p2_6_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                <Button fx:id="p2_7_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                <Button fx:id="p2_8_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                <Button fx:id="p2_9_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                <Button fx:id="p2_1_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                <Button fx:id="p2_2_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                <Button fx:id="p2_3_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                <Button fx:id="p2_4_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                <Button fx:id="p2_5_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                <Button fx:id="p2_6_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                <Button fx:id="p2_7_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                <Button fx:id="p2_8_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="8">
+                <Button fx:id="p2_9_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                <Button fx:id="p2_1_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                <Button fx:id="p2_2_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                <Button fx:id="p2_3_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                <Button fx:id="p2_4_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                <Button fx:id="p2_5_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                <Button fx:id="p2_6_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                <Button fx:id="p2_7_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                <Button fx:id="p2_8_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                <Button fx:id="p2_9_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_1_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                <Button fx:id="p2_1_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="2" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_2_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                <Button fx:id="p2_2_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="3" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_3_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                <Button fx:id="p2_3_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="4" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_4_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                <Button fx:id="p2_4_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="5" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_5_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                <Button fx:id="p2_5_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="6" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_6_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                <Button fx:id="p2_6_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="7" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_7_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                <Button fx:id="p2_7_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="8" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_8_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                <Button fx:id="p2_8_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="9" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_9_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                <Button fx:id="p2_9_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="10" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>
@@ -1264,52 +1264,52 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Button fx:id="p2_0_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="p2_0_0" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <Button fx:id="p2_0_1" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <Button fx:id="p2_0_2" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="3">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <Button fx:id="p2_0_3" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="4">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <Button fx:id="p2_0_4" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="5">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                <Button fx:id="p2_0_5" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="6">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                <Button fx:id="p2_0_6" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="7">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                <Button fx:id="p2_0_7" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="8">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                <Button fx:id="p2_0_8" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="9">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Button fx:id="p2_0_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onSlotPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                <Button fx:id="p2_0_9" alignment="CENTER" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onAction="#onButtonPane2" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #eeeeee;" textFill="#424242" GridPane.columnIndex="1" GridPane.rowIndex="10">
                     <font>
                         <Font size="18.0" />
                     </font>

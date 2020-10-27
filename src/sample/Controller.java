@@ -14,12 +14,12 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.*;
 
 public class Controller implements Initializable {
-    // Pane1 Buttons
+
+    // PanePlayer1 Buttons (Cells)
     @FXML
     private Button p1_0_0, p1_1_0, p1_2_0, p1_3_0, p1_4_0, p1_5_0, p1_6_0, p1_7_0, p1_8_0, p1_9_0;
     @FXML
@@ -41,7 +41,7 @@ public class Controller implements Initializable {
     @FXML
     private Button p1_0_9, p1_1_9, p1_2_9, p1_3_9, p1_4_9, p1_5_9, p1_6_9, p1_7_9, p1_8_9, p1_9_9;
 
-    // Pane2 Buttons
+    // PanePlayer2 Buttons (Cells)
     @FXML
     private Button p2_0_0, p2_1_0, p2_2_0, p2_3_0, p2_4_0, p2_5_0, p2_6_0, p2_7_0, p2_8_0, p2_9_0;
     @FXML
@@ -72,37 +72,68 @@ public class Controller implements Initializable {
     @FXML
     private TextField tfPlayer1, tfPlayer2;
 
-    //
+
+
+
+    // все ячейки игроков
     private final Button[][] buttonsPlayer1 = new Button[10][10];
     private final Button[][] buttonsPlayer2 = new Button[10][10];
-    //
+    private Button[][] buttonsCurrentPlayer = buttonsPlayer1;
+    // текущая нажатая кнопка и координаты этой кнопки
+    private Button currentPressedBtn = new Button();
+    private int x = 0, y = 0;
+    // текущий размер расставляемого корабля
+    private List<String> listCurrentAddShip = new ArrayList<>();
+    // расстановка или игра
+    private boolean isGame = false;
+    // игрок 1 или игрок 2
+    private boolean isPLayer1 = true;
+    // максимально возможное количество кораблей каждого типа
+    private int maxPossibleCountOneShip = 4, maxPossibleCountTwoShip = 3, maxPossibleCountThreeShip = 2, maxPossibleCountFourShip = 1;
+    // подбитые ячейки игроков
     private final List<Button> listButtonsKilledShipsPlayer1 = new ArrayList<>();
     private final List<Button> listButtonsKilledShipsPlayer2 = new ArrayList<>();
-    //
-    private final List<Button> listButtonsNotGameShipsP1 = new ArrayList<>();
-    private final List<Button> listButtonsNotGameShipsP2 = new ArrayList<>();
-    //
-    private final List<Button> xButtonsPlayer1 = new ArrayList<>();
-    private final List<Button> xButtonsPlayer2 = new ArrayList<>();
-    //
-    private final List<Button> conteinButtonsP1 = new ArrayList<>();
-    private final List<Button> conteinButtonsP2 = new ArrayList<>();
-    //
-    private boolean isGame = false, isPLayer1 = true;
-    private boolean isFourP1 = false, isTwoShipP1 = false, isThreeShipP1 = false, isOneShipP1 = false;
-    private boolean isFourP2 = false, isTwoShipP2 = false, isThreeShipP2 = false, isOneShipP2 = false;
-    //
-    private int countShipsPlayer1 = 0;
-    private int countShipsPlayer2 = 0;
-    //
-    private int x = 0;
-    private int y = 0;
+    private List<Button> listButtonsKilledShipsCurrentPlayer = new ArrayList<>();
+    // имена игроков (по умолчанию)
+    private String namePlayer1 = "Игрок 1", namePlayer2 = "Игрок 2", nameCurrentPlayer = namePlayer2;
+    // количество кораблей (ячеек) игроков
+    private int countCellsPlayer1 = 0, countCellsPlayer2 = 0, countCellsCurrentPlayer = countCellsPlayer1;
+    // расставленное вооружение каждого игрока
+    private int[][] armorPlayer1 = {
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0}
 
-    private String namePlayer1 = "Игрок 1", namePlayer2 = "Игрок 2";
+    };
+    private int[][] armorPlayer2 = {
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0}
 
+    };
+    private int[][] armorCurrentPlayer = armorPlayer1;
+
+
+
+
+    // инициализация всех ячеек на игровых полях
     @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        // Buttons Player1
+    public void initialize(URL location, ResourceBundle resources) {
+        // Buttons (Cells) Player1
         {
             // A
             {
@@ -235,7 +266,7 @@ public class Controller implements Initializable {
                 buttonsPlayer1[9][9] = p1_9_9;
             }
         }
-        // Buttons Player2
+        // Buttons (Cells) Player2
         {
             // A
             {
@@ -370,502 +401,192 @@ public class Controller implements Initializable {
         }
     }
 
-    // нажатие кнопки "Готово" Player1
-    public void onReadyPlayer1(ActionEvent event) {
-        if (!tfPlayer1.getText().equals(""))
-            namePlayer1 = tfPlayer1.getText();
-        lblPlayer1.setVisible(true);
-        lblPlayer1.setText(namePlayer1);
-        tfPlayer1.setVisible(false);
-        btnReadyPlayer1.setVisible(false);
-        tfPlayer2.setDisable(false);
-        btnReadyPlayer2.setDisable(false);
-        reversPlayer();
-        hideOrShowXButtons("p1");
-        setDisableFalseToButtons();
-    }
-
-    // нажатие кнопки "Готово" Player2
-    public void onReadyPlayer2(ActionEvent event) {
-        if (!tfPlayer2.getText().equals(""))
-            namePlayer2 = tfPlayer2.getText();
-        lblPlayer2.setVisible(true);
-        lblPlayer2.setText(namePlayer2);
-        tfPlayer2.setVisible(false);
-        btnReadyPlayer2.setVisible(false);
-        printStatusGame("Бой начался! Стреляет " + namePlayer1 + "...");
-        hideOrShowXButtons("p2");
-        setDisableFalseToButtons();
-        isGame = true;
-        isPLayer1 = true;
-        reversPlayer();
-    }
-
-    // нажатие ячейки на левом поле Pane1
-    public void onSlotPane1(ActionEvent event) {
-        Button btn = (Button) event.getSource();
-        if (!isGame) { // расстановка кораблей
-            if (btn.getText().equals("")) {
-                btn.setText("+");
-                btn.setStyle("-fx-background-color: #aeaeae;");
-                xButtonsPlayer1.add(btn);
-                countShipsPlayer1++;
-
-                conteinButtonsP1.add(btn);
-                listButtonsNotGameShipsP1.add(btn);
-                searchMove("player1", btn.getId());
-            }
-        } else { // стрельба по кораблям
-            if (btn.getText().equals("+")) { // попадание
-                initXAndY(btn.getId());
-                //
-                btn.setTextFill(Color.web("#fafafa"));
-                btn.setStyle("-fx-background-color: #af4448;");
-                btn.setDisable(true);
-                printStatusGame("Ранен! Стреляйте еще раз...");
-                countShipsPlayer1--;
-                //
-                listButtonsKilledShipsPlayer1.add(btn);
-                for (Button button : listButtonsKilledShipsPlayer1)
-                    System.out.println("pane_1 : " + button.getId());
-                //
-                if (!checkAroundNotKilledShips("player1")) {
-                    for (Button button : listButtonsKilledShipsPlayer1)
-                        paintAroundKilledShips("player1", button);
-                    listButtonsKilledShipsPlayer1.clear();
-                    printStatusGame("Убит! Стреляйте еще раз...");
-                }
-                //
-                if (countShipsPlayer1 == 0)
-                    win(namePlayer2);
-            } else { // промах
-                printStatusGame("Промах! Сейчас стреляет " + namePlayer1 + "...");
-                btn.setStyle("-fx-background-color: #0093c4;");
-                btn.setDisable(true);
-                reversPlayer();
-            }
-        }
-    }
-
-    // нажатие ячейки на правом поле Pane2
-    public void onSlotPane2(ActionEvent event) {
-        Button btn = (Button) event.getSource();
-        if (!isGame) { // расстановка кораблей
-            if (btn.getText().equals("")) {
-                btn.setText("+");
-                btn.setStyle("-fx-background-color: #aeaeae;");
-                xButtonsPlayer2.add(btn);
-                countShipsPlayer2++;
-
-                conteinButtonsP2.add(btn);
-                listButtonsNotGameShipsP2.add(btn);
-                searchMove("player2", btn.getId());
-            }
-        } else { // стрельба по кораблям
-            if (btn.getText().equals("+")) { // попадание
-                initXAndY(btn.getId());
-                //
-                btn.setTextFill(Color.web("#fafafa"));
-                btn.setStyle("-fx-background-color: #af4448;");
-                btn.setDisable(true);
-                printStatusGame("Ранен! Стреляйте еще раз...");
-                countShipsPlayer2--;
-                //
-                listButtonsKilledShipsPlayer2.add(btn);
-                for (Button button : listButtonsKilledShipsPlayer2)
-                    System.out.println("pane_2 : " + button.getId());
-                //
-                if (!checkAroundNotKilledShips("player2")) {
-                    for (Button button : listButtonsKilledShipsPlayer2)
-                        paintAroundKilledShips("player2", button);
-                    listButtonsKilledShipsPlayer2.clear();
-                    printStatusGame("Убит! Стреляйте еще раз...");
-                }
-                //
-                if (countShipsPlayer2 == 0)
-                    win(namePlayer1);
-            } else { // промах
-                printStatusGame("Промах! Сейчас стреляет " + namePlayer2 + "...");
-                btn.setStyle("-fx-background-color: #0093c4;");
-                btn.setDisable(true);
-                reversPlayer();
-            }
-        }
-    }
-
-    // инициализация X и Y
-    private void initXAndY(String id) {
-        // шаблон p1_1_1
+    // инициализация координат кнопки X и Y
+    private void initXY(String id) {
+        // получаемый шаблон p1_1_1
         String[] args = id.split("_");
-
-        String strOX = args[1];
-        String strOY = args[2];
-
+        String strX = args[1];
+        String strY = args[2];
         try {
-            x = Integer.parseInt(strOX);
-            y = Integer.parseInt(strOY);
+            x = Integer.parseInt(strX);
+            y = Integer.parseInt(strY);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    // нажатие ячейки на левом игровом поле PanePlayer1
+    public void onButtonPane1(ActionEvent event) {
+        currentPressedBtn = (Button) event.getSource();
+        initXY(currentPressedBtn.getId());
+
+        if (!isGame) { // расстановка кораблей
+            placementShip();
+        } else { // стрельба по кораблям
+            shootingShip();
+        }
+    }
+
+    // нажатие ячейки на правом игровом поле PanePlayer2
+    public void onButtonPane2(ActionEvent event) {
+        currentPressedBtn = (Button) event.getSource();
+        initXY(currentPressedBtn.getId());
+
+        if (!isGame) { // расстановка кораблей
+            placementShip();
+        } else { // стрельба по кораблям
+            shootingShip();
+        }
+    }
+
+    // нажатие кнопки "Готово" Player1
+    public void onReadyPlayer1(ActionEvent event) {
+        if (!tfPlayer1.getText().equals(""))
+            namePlayer1 = tfPlayer1.getText().trim();
+        lblPlayer1.setVisible(true);
+        lblPlayer1.setText(namePlayer1);
+        tfPlayer1.setVisible(false);
+        btnReadyPlayer1.setVisible(false);
+        tfPlayer2.setDisable(false);
+        setDisableFalseToButtons(); // разблокировка ячеек после расстановки перед началом игры
+        reversPlayer(); // переключение между игроками
+    }
+
+    // нажатие кнопки "Готово" Player2
+    public void onReadyPlayer2(ActionEvent event) {
+        if (!tfPlayer2.getText().equals(""))
+            namePlayer2 = tfPlayer2.getText().trim();
+        lblPlayer2.setVisible(true);
+        lblPlayer2.setText(namePlayer2);
+        tfPlayer2.setVisible(false);
+        btnReadyPlayer2.setVisible(false);
+        printStatusGame("Бой начался! Стреляет " + namePlayer1 + "...");
+        setDisableFalseToButtons(); // разблокировка ячеек после расстановки перед началом игры
+        reversPlayer(); // переключение между игроками
+        isGame = true;
+    }
+
     // переключение между игроками
     private void reversPlayer() {
         if (isPLayer1) {
+            saveProgressPlayer();
             panePlayer1.setDisable(true);
             panePlayer2.setDisable(false);
             isPLayer1 = false;
+
+            buttonsCurrentPlayer = buttonsPlayer2;
+            countCellsCurrentPlayer = countCellsPlayer2;
+            armorCurrentPlayer = armorPlayer2;
+            nameCurrentPlayer = namePlayer1;
+            listButtonsKilledShipsCurrentPlayer = listButtonsKilledShipsPlayer2;
         } else {
+            saveProgressPlayer();
             panePlayer1.setDisable(false);
             panePlayer2.setDisable(true);
             isPLayer1 = true;
+
+            buttonsCurrentPlayer = buttonsPlayer1;
+            countCellsCurrentPlayer = countCellsPlayer1;
+            armorCurrentPlayer = armorPlayer1;
+            nameCurrentPlayer = namePlayer2;
+            listButtonsKilledShipsCurrentPlayer = listButtonsKilledShipsPlayer1;
         }
     }
 
-    // скрытие/показ ячеек с x-ми
-    private void hideOrShowXButtons(String isPlayer) {
-        String[] pl = isPlayer.split("_");
-        if (isPlayer.equals("p1")) {
-            for (Button btn : xButtonsPlayer1) {
-                btn.setTextFill(Color.web("#eeeeee"));
-                btn.setStyle("-fx-background-color: #eeeeee");
-            }
-        } else if (isPlayer.equals("p2")) {
-            for (Button btn : xButtonsPlayer2) {
-                btn.setTextFill(Color.web("#eeeeee"));
-                btn.setStyle("-fx-background-color: #eeeeee");
-            }
-        } else if (pl[0].equals("win")) {
-            paintUndetectedShips();
+    // сохранение прогресса игрока
+    private void saveProgressPlayer() {
+        if (isPLayer1) {
+            countCellsPlayer1 = countCellsCurrentPlayer;
+            armorPlayer1 = armorCurrentPlayer;
+        } else {
+            countCellsPlayer2 = countCellsCurrentPlayer;
+            armorPlayer2 = armorCurrentPlayer;
         }
     }
 
+    // разблокировка ячеек после расстановки перед началом игры
+    private void setDisableFalseToButtons() {
+        for (int x = 0; x < 10; x++) {
+            for (int y = 0; y < 10; y++) {
+                buttonsCurrentPlayer[x][y].setDisable(false);
+                buttonsCurrentPlayer[x][y].setStyle("-fx-background-color: #eeeeee");
+                buttonsCurrentPlayer[x][y].setTextFill(Color.web("#eeeeee"));
+                if (buttonsCurrentPlayer[x][y].getText().equals("~"))
+                    buttonsCurrentPlayer[x][y].setText("");
+            }
+        }
+    }
+
+    // стрельба корабля
+    private void shootingShip() {
+        if (currentPressedBtn.getText().equals("+")) { // попадание
+            printStatusGame("Ранен! Стреляйте еще раз...");
+            currentPressedBtn.setTextFill(Color.web("#fafafa"));
+            currentPressedBtn.setStyle("-fx-background-color: #af4448;");
+            currentPressedBtn.setDisable(true);
+            countCellsCurrentPlayer--;
+            // проверка вокруг корабля
+            listButtonsKilledShipsCurrentPlayer.add(currentPressedBtn);
+            if (!isAroundNotKilledShips()) {
+                for (Button btn : listButtonsKilledShipsCurrentPlayer)
+                    paintAroundKilledShips(btn);
+                listButtonsKilledShipsCurrentPlayer.clear();
+                printStatusGame("Убит! Стреляйте еще раз...");
+            }
+            // если убиты все корабли
+            if (countCellsCurrentPlayer == 0)
+                win();
+        } else { // промах
+            currentPressedBtn.setStyle("-fx-background-color: #0093c4;");
+            currentPressedBtn.setDisable(true);
+            reversPlayer();
+            printStatusGame("Промах! Сейчас стреляет " + nameCurrentPlayer + "...");
+        }
+    }
 
     // проверка ячеек вокруг раненого карабля
-    private boolean checkAroundNotKilledShips(String player) {
+    private boolean isAroundNotKilledShips() {
         boolean answer = false;
 
-        switch (player) {
-            case "player1": {
-                for (Button button : listButtonsKilledShipsPlayer1) {
-                    initXAndY(button.getId());
-                    for (int ox = -1; ox < 2; ox++) {
-                        for (int oy = -1; oy < 2; oy++) {
-                            if (checkInsideArray(x + ox, y + oy)) {
-                                if (buttonsPlayer1[x + ox][y + oy].getText().equals("+") && buttonsPlayer1[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee"))
-                                    answer = true;
-                            }
-                        }
+        for (Button btn : listButtonsKilledShipsCurrentPlayer) {
+            initXY(btn.getId());
+            for (int ox = -1; ox < 2; ox++) {
+                for (int oy = -1; oy < 2; oy++) {
+                    if (checkInsideArray(x + ox, y + oy)) {
+                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee"))
+                            answer = true;
                     }
                 }
             }
-            break;
-
-            case "player2": {
-                for (Button button : listButtonsKilledShipsPlayer2) {
-                    initXAndY(button.getId());
-                    for (int ox = -1; ox < 2; ox++) {
-                        for (int oy = -1; oy < 2; oy++) {
-                            if (checkInsideArray(x + ox, y + oy)) {
-                                if (buttonsPlayer2[x + ox][y + oy].getText().equals("+") && buttonsPlayer2[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee"))
-                                    answer = true;
-                            }
-                        }
-                    }
-                }
-            }
-            break;
         }
 
-        System.out.println(player + " " + answer);
+        System.out.println(nameCurrentPlayer + " " + answer);
         return answer;
     }
 
-
-
-
-
-
-
-
-
-
-
-    // поиск возможных соседних нажатий на клетки для одного корабля
-    private void searchMove(String player, String id) {
-        initXAndY(id);
-        switch (player) {
-            case "player1": {
-                for (int i = -1; i != 3 && i < 4; i += 2) {
-                    for (int j = -1; j != 3 && j < 4; j += 2) {
-                        if (checkInsideArray(x + i, y + j)) {
-                            buttonsPlayer1[x + i][y + j].setDisable(true);
-                            buttonsPlayer1[x + i][y + j].setStyle("-fx-background-color: #0093c4");
-                            buttonsPlayer1[x + i][y + j].setText("~");
-                            checkIsShip("player1");
-                        }
-                    }
-                }
-            }
-            break;
-
-            case "player2": {
-                for (int i = -1; i != 3 && i < 4; i += 2) {
-                    for (int j = -1; j != 3 && j < 4; j += 2) {
-                        if (checkInsideArray(x + i, y + j)) {
-                            buttonsPlayer2[x + i][y + j].setDisable(true);
-                            buttonsPlayer2[x + i][y + j].setStyle("-fx-background-color: #0093c4");
-                            buttonsPlayer2[x + i][y + j].setText("~");
-                            checkIsShip("player2");
-                        }
-                    }
-                }
-            }
-            break;
-        }
-    }
-
-    // проверка на карабль (блокировка клеток если 4-х палубный есть!)
-    private void checkIsShip(String player) {
-        switch (player) {
-            case "player1": {
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (buttonsPlayer1[x + ox][y + oy].getText().equals("+") && !buttonsPlayer1[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee")) {
-
-                                if (conteinButtonsP1.size() == 4 && !isFourP1) {
-                                    isFourP1 = true;
-                                }
-                                if (conteinButtonsP1.size() == 3 && isFourP1 && !isThreeShipP1 && !isTwoShipP1) {
-                                    isThreeShipP1 = true;
-                                    countPal3_Player1++;
-                                }
-                                if (conteinButtonsP1.size() == 2 && isFourP1 && isThreeShipP1 && !isOneShipP1) {
-                                    isTwoShipP1 = true;
-                                    countPal2_Player1++;
-                                }
-                                if (conteinButtonsP1.size() == 1 && isFourP1 && isThreeShipP1 && isTwoShipP1) {
-                                    isOneShipP1 = true;
-                                    countPal1_Player1++;
-                                }
-                            }
-
-                            if (isFourP1 && conteinButtonsP1.size() == 4) {
-                                for (Button btn : listButtonsNotGameShipsP1)
-                                    disableAroundShip_inStartGame("player1", btn);
-                                listButtonsNotGameShipsP1.clear();
-                            }
-
-                            if (isFourP1 && isThreeShipP1 && !isTwoShipP1 && conteinButtonsP1.size() == 3) {
-                                for (Button btn : listButtonsNotGameShipsP1)
-                                    disableAroundShip_inStartGame("player1", btn);
-                                listButtonsNotGameShipsP1.clear();
-                            }
-
-                            if (isFourP1 && isThreeShipP1 && isTwoShipP1 && !isOneShipP1 && conteinButtonsP1.size() == 2) {
-                                for (Button btn : listButtonsNotGameShipsP1)
-                                    disableAroundShip_inStartGame("player1", btn);
-                                listButtonsNotGameShipsP1.clear();
-                            }
-
-                            if (isFourP1 && isThreeShipP1 && isTwoShipP1 && isOneShipP1) {
-                                for (Button btn : listButtonsNotGameShipsP1)
-                                    disableAroundShip_inStartGame("player1", btn);
-                                listButtonsNotGameShipsP1.clear();
-                            }
-                        }
-                    }
-                }
-            }
-            break;
-
-            case "player2": {
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (buttonsPlayer2[x + ox][y + oy].getText().equals("+") && !buttonsPlayer2[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee")) {
-                                if (conteinButtonsP2.size() == 4) {
-                                    isFourP2 = true;
-                                }
-                                if (conteinButtonsP2.size() == 3 && isFourP2 && !isThreeShipP2 && !isTwoShipP2) {
-                                    isThreeShipP2 = true;
-                                    countPal3_Player2++;
-                                }
-                                if (conteinButtonsP2.size() == 2 && isFourP2 && isThreeShipP2 && !isOneShipP2) {
-                                    isTwoShipP2 = true;
-                                    countPal2_Player2++;
-                                }
-                                if (conteinButtonsP2.size() == 1 && isFourP2 && isThreeShipP2 && isTwoShipP2) {
-                                    isOneShipP2 = true;
-                                    countPal1_Player2++;
-                                }
-                            }
-
-                            if (isFourP2 && conteinButtonsP2.size() == 4) {
-                                for (Button btn : listButtonsNotGameShipsP2)
-                                    disableAroundShip_inStartGame("player2", btn);
-                                listButtonsNotGameShipsP2.clear();
-                            }
-
-                            if (isFourP2 && isThreeShipP2 && !isTwoShipP2 && conteinButtonsP2.size() == 3) {
-                                for (Button btn : listButtonsNotGameShipsP2)
-                                    disableAroundShip_inStartGame("player2", btn);
-                                listButtonsNotGameShipsP2.clear();
-                            }
-
-                            if (isFourP2 && isThreeShipP2 && isTwoShipP2 && !isOneShipP2 && conteinButtonsP2.size() == 2) {
-                                for (Button btn : listButtonsNotGameShipsP2)
-                                    disableAroundShip_inStartGame("player2", btn);
-                                listButtonsNotGameShipsP2.clear();
-                            }
-
-                            if (isFourP2 && isThreeShipP2 && isTwoShipP2 && isOneShipP2) {
-                                for (Button btn : listButtonsNotGameShipsP2)
-                                    disableAroundShip_inStartGame("player2", btn);
-                                listButtonsNotGameShipsP2.clear();
-                            }
-                        }
-                    }
-                }
-            }
-            break;
-        }
-    }
-
-    private int countPal3_Player1 = 0, countPal2_Player1 = 0, countPal1_Player1 = 0;
-    private int countPal3_Player2 = 0, countPal2_Player2 = 0, countPal1_Player2 = 0;
-
-    // запрет на нажатие кнопок вокруг карабля во время расстановки
-    private void disableAroundShip_inStartGame(String player, Button btn) {
-        initXAndY(btn.getId());
-        switch (player) {
-            case "player1": {
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (!buttonsPlayer1[x + ox][y + oy].getText().equals("+")) {
-                                if (isFourP1 && !isTwoShipP1) {
-                                    if (countPal3_Player1 < 2) {
-                                        isThreeShipP1 = false;
-                                    } else if (countPal3_Player1 == 2) {
-                                        isThreeShipP1 = true;
-                                    }
-                                    conteinButtonsP1.clear();
-                                }
-                                if (isFourP1 && isThreeShipP1 && !isOneShipP1) {
-                                    if (countPal2_Player1 < 3) {
-                                        isTwoShipP1 = false;
-                                    } else if (countPal2_Player1 == 3) {
-                                        isTwoShipP1 = true;
-                                    }
-                                    conteinButtonsP1.clear();
-                                }
-                                if (isFourP1 && isThreeShipP1 && isTwoShipP1) {
-                                    if (countPal1_Player1 < 4) {
-                                        isOneShipP1 = false;
-                                    } else if (countPal1_Player1 == 4) {
-                                        isOneShipP1 = true;
-                                        panePlayer1.setDisable(true);
-                                    }
-                                    conteinButtonsP1.clear();
-                                }
-                                buttonsPlayer1[x + ox][y + oy].setDisable(true);
-                                buttonsPlayer1[x + ox][y + oy].setText("~");
-                                buttonsPlayer1[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
-                            }
-                        }
-                    }
-                }
-            }
-            break;
-
-            case "player2": {
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (!buttonsPlayer2[x + ox][y + oy].getText().equals("+")) {
-                                if (isFourP2 && !isTwoShipP2) {
-                                    if (countPal3_Player2 < 2) {
-                                        isThreeShipP2 = false;
-                                    } else if (countPal3_Player2 == 2) {
-                                        isThreeShipP2 = true;
-                                    }
-                                    conteinButtonsP2.clear();
-                                }
-                                if (isFourP2 && isThreeShipP2 && !isOneShipP2) {
-                                    if (countPal2_Player2 < 3) {
-                                        isTwoShipP2 = false;
-                                    } else if (countPal2_Player2 == 3) {
-                                        isTwoShipP2 = true;
-                                    }
-                                    conteinButtonsP2.clear();
-                                }
-                                if (isFourP2 && isThreeShipP2 && isTwoShipP2) {
-                                    if (countPal1_Player2 < 4) {
-                                        isOneShipP2 = false;
-                                    } else if (countPal1_Player2 == 4) {
-                                        isOneShipP2 = true;
-                                        panePlayer2.setDisable(true);
-                                    }
-                                    conteinButtonsP2.clear();
-                                }
-                                buttonsPlayer2[x + ox][y + oy].setDisable(true);
-                                buttonsPlayer2[x + ox][y + oy].setText("~");
-                                buttonsPlayer2[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
-                            }
-                        }
-                    }
-                }
-            }
-            break;
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
     // закрашивание ячеек вокруг убитого карабля
-    private void paintAroundKilledShips(String player, Button btn) {
-
-        switch (player) {
-            case "player1": {
-                initXAndY(btn.getId());
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (!buttonsPlayer1[x + ox][y + oy].getText().equals("+")) {
-                                buttonsPlayer1[x + ox][y + oy].setDisable(true);
-                                buttonsPlayer1[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
-                            }
-                        }
+    private void paintAroundKilledShips(Button btn) {
+        initXY(btn.getId());
+        for (int ox = -1; ox < 2; ox++) {
+            for (int oy = -1; oy < 2; oy++) {
+                if (checkInsideArray(x + ox, y + oy)) {
+                    if (!buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+")) {
+                        buttonsCurrentPlayer[x + ox][y + oy].setDisable(true);
+                        buttonsCurrentPlayer[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
                     }
                 }
             }
-            break;
-
-            case "player2": {
-                initXAndY(btn.getId());
-                for (int ox = -1; ox < 2; ox++) {
-                    for (int oy = -1; oy < 2; oy++) {
-                        if (checkInsideArray(x + ox, y + oy)) {
-                            if (!buttonsPlayer2[x + ox][y + oy].getText().equals("+")) {
-                                buttonsPlayer2[x + ox][y + oy].setDisable(true);
-                                buttonsPlayer2[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
-                            }
-                        }
-                    }
-                }
-            }
-            break;
         }
+    }
+
+    // конец игры и объявление победителя игры
+    private void win() {
+        printStatusGame("Выиграл " + nameCurrentPlayer + "!");
+        panePlayer1.setDisable(true);
+        panePlayer2.setDisable(true);
+        btnNewGame.setVisible(true);
+        openStageWin(); // всплывающее поздравительное окно в конце игры
+        paintUndetectedShips(); // отображение (закрашивание) необнаруженных кораблей после окончания игры
     }
 
     // отображение (закрашивание) необнаруженных кораблей после окончания игры
@@ -885,18 +606,154 @@ public class Controller implements Initializable {
 
     }
 
-    // разблокировка ячеек после расстановки перед началом игры
-    private void setDisableFalseToButtons() {
-        for (int x = 0; x < 10; x++) {
-            for (int y = 0; y < 10; y++) {
-                buttonsPlayer1[x][y].setDisable(false);
-                buttonsPlayer2[x][y].setDisable(false);
-                buttonsPlayer1[x][y].setStyle("-fx-background-color: #eeeeee");
-                buttonsPlayer2[x][y].setStyle("-fx-background-color: #eeeeee");
-                if (buttonsPlayer1[x][y].getText().equals("~"))
-                    buttonsPlayer1[x][y].setText("");
-                if (buttonsPlayer2[x][y].getText().equals("~"))
-                    buttonsPlayer2[x][y].setText("");
+    // всплывающее поздравительное окно в конце игры
+    private void openStageWin() {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("../ViewStage/win.fxml"));
+            Stage stage = new Stage();
+            stage.setTitle("Отличная работа, боец!");
+            stage.setResizable(false);
+            stage.setScene(new Scene(root));
+            stage.getIcons().add(new Image(getClass().getResourceAsStream("../medal.png")));
+            stage.show();
+        } catch (Exception e) {
+        }
+    }
+
+    // размещение корабля
+    private void placementShip() {
+        if (currentPressedBtn.getText().equals("")) {
+            currentPressedBtn.setText("+");
+            currentPressedBtn.setStyle("-fx-background-color: #aeaeae;");
+            checkAddShip(); // проверяем, продолжаем ли мы ставить тот же корабль или ставим новый
+            initXY(currentPressedBtn.getId());
+            setColorTabooCellsAroundShip();
+            if (countCellsCurrentPlayer >= 20 && isPLayer1) {
+                panePlayer1.setDisable(true);
+                btnReadyPlayer1.setDisable(false);
+                cancelShip();
+                listCurrentAddShip.clear();
+            }
+            if (countCellsCurrentPlayer >= 20 && !isPLayer1) {
+                panePlayer2.setDisable(true);
+                btnReadyPlayer2.setDisable(false);
+                cancelShip();
+                listCurrentAddShip.clear();
+            }
+        }
+    }
+
+    // проверяем, продолжаем ли мы ставить тот же корабль или ставим новый
+    private void checkAddShip() {
+        System.out.println("Лист ДО = " + listCurrentAddShip.size() + "   " + listCurrentAddShip.toString());
+
+        boolean answer = false;
+        if (listCurrentAddShip.size() != 0) { // продолжаем ставить корабль (увеличиваем размер корабля)
+            // есть ли вокруг нажатой ячейки уже расставленные корабли (ячейки)
+            for (int ox = -1; ox < 2; ox++) {
+                for (int oy = -1; oy < 2; oy++) {
+                    if (checkInsideArray(x + ox, y + oy)) {
+                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy] != buttonsCurrentPlayer[x][y])
+                            answer = true;
+                    }
+                }
+            }
+
+            if (!answer) {
+                System.out.printf("Разрешено ли разместить еще один %d-палубный корабль | %b\n", listCurrentAddShip.size(), isNotMaxCountShip(listCurrentAddShip.size()));
+                if (isNotMaxCountShip(listCurrentAddShip.size())) {
+                    setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
+                    setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
+                    countCellsCurrentPlayer += listCurrentAddShip.size();
+                } else
+                    cancelShip(); // отмена расставленного корабля
+                listCurrentAddShip.clear();
+            }
+        }
+        listCurrentAddShip.add(currentPressedBtn.getId());
+
+        System.out.println("Лист ПОСЛЕ = " + listCurrentAddShip.size() + "    " + listCurrentAddShip.toString() + "\n");
+    }
+
+    // закрашивание ячеек вокруг установленного корабля
+    private void setColorAroundShip() {
+        for (String s : listCurrentAddShip) {
+            initXY(s);
+            for (int i = -1; i < 2; i++) {
+                for (int j = -1; j < 2; j++) {
+                    if (checkInsideArray(x + i, y + j)) {
+                        if (!buttonsCurrentPlayer[x + i][y + j].getText().equals("+")) {
+                            buttonsCurrentPlayer[x + i][y + j].setDisable(true);
+                            buttonsCurrentPlayer[x + i][y + j].setText("~");
+                            buttonsCurrentPlayer[x + i][y + j].setStyle("-fx-background-color: #0093c4");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // запись расставленого корабля
+    private void setArmorPlayer(int typeShip) {
+        int i = 0;
+        while (armorCurrentPlayer[i][0] != 0)
+            i++;
+        for (int j = 0; j < typeShip; j++)
+            armorCurrentPlayer[i][j] = 1;
+        System.out.println(Arrays.deepToString(armorCurrentPlayer));
+    }
+
+    // отмена расставленного корабля
+    private void cancelShip() {
+        for (String s : listCurrentAddShip) {
+            initXY(s);
+            for (int i = -1; i < 2; i++) {
+                for (int j = -1; j < 2; j++) {
+                    if (checkInsideArray(x + i, y + j) && !buttonsCurrentPlayer[x + i][y + j].getText().equals("~")) {
+                        buttonsCurrentPlayer[x + i][y + j].setDisable(false);
+                        buttonsCurrentPlayer[x + i][y + j].setStyle("-fx-background-color: #eeeeee");
+                        buttonsCurrentPlayer[x + i][y + j].setText("");
+                    }
+                }
+            }
+        }
+    }
+
+    // проверка на максимум расставленых кораблей определенного типа
+    private boolean isNotMaxCountShip(int typeShip) {
+        switch (typeShip) {
+            case 1:
+                return currentCountTypeShip(typeShip) < maxPossibleCountOneShip;
+            case 2:
+                return currentCountTypeShip(typeShip) < maxPossibleCountTwoShip;
+            case 3:
+                return currentCountTypeShip(typeShip) < maxPossibleCountThreeShip;
+            case 4:
+                return currentCountTypeShip(typeShip) < maxPossibleCountFourShip;
+            default:
+                return false;
+        }
+    }
+
+    // подсчет уже расставленных кораблей определенного типа
+    private int currentCountTypeShip(int typeShip) {
+        int returnCount = 0;
+        for (int i = 0; i < 10; i++) {
+            if (armorCurrentPlayer[i][0] + armorCurrentPlayer[i][1] + armorCurrentPlayer[i][2] + armorCurrentPlayer[i][3] == typeShip)
+                returnCount++;
+        }
+        System.out.printf("Уже расставлено %d-палубных кораблей | %d\n", typeShip, returnCount);
+        return returnCount;
+    }
+
+    // закраска и блокирование угловых ячеек
+    private void setColorTabooCellsAroundShip() {
+        for (int i = -1; i != 3 && i < 4; i += 2) {
+            for (int j = -1; j != 3 && j < 4; j += 2) {
+                if (checkInsideArray(x + i, y + j)) {
+                    buttonsCurrentPlayer[x + i][y + j].setDisable(true);
+                    buttonsCurrentPlayer[x + i][y + j].setStyle("-fx-background-color: #0093c4");
+                }
             }
         }
     }
@@ -911,30 +768,6 @@ public class Controller implements Initializable {
         lblStatusGame.setText(text);
     }
 
-    // конец игры и определение победителя игры
-    private void win(String player) {
-        printStatusGame("Выиграл " + player + "!");
-        panePlayer1.setDisable(true);
-        panePlayer2.setDisable(true);
-        btnNewGame.setVisible(true);
-        openStageWin();
-        hideOrShowXButtons("win_" + player);
-    }
-
-    // поздравительное окно в конце игры
-    private void openStageWin() {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("../ViewStage/win.fxml"));
-            Stage stage = new Stage();
-            stage.setTitle("Отличная работа, боец!");
-            stage.setResizable(false);
-            stage.setScene(new Scene(root));
-            stage.getIcons().add(new Image(getClass().getResourceAsStream("../medal.png")));
-            stage.show();
-        } catch (IOException ignored) {
-        }
-    }
-
     // нажатие кнопки "Новая игра"
     public void onNewGame(ActionEvent event) {
         isGame = false;
@@ -947,7 +780,7 @@ public class Controller implements Initializable {
         tfPlayer1.clear();
         panePlayer1.setDisable(false);
         btnReadyPlayer1.setVisible(true);
-        btnReadyPlayer1.setDisable(false);
+        btnReadyPlayer1.setDisable(true);
 
         lblPlayer2.setVisible(false);
         tfPlayer2.setVisible(true);
@@ -957,31 +790,19 @@ public class Controller implements Initializable {
         btnReadyPlayer2.setVisible(true);
         btnReadyPlayer2.setDisable(true);
 
-        countShipsPlayer1 = 0;
-        countShipsPlayer2 = 0;
+        countCellsPlayer1 = 0;
+        countCellsPlayer2 = 0;
+        countCellsCurrentPlayer = countCellsPlayer1;
 
-        x = 0;
-        y = 0;
+        x = 0; y = 0;
 
         namePlayer1 = "Игрок 1";
         namePlayer2 = "Игрок 2";
-
-        isFourP1 = false;
-        isTwoShipP1 = false;
-        isThreeShipP1 = false;
-        isOneShipP1 = false;
-
-        isFourP2 = false;
-        isTwoShipP2 = false;
-        isThreeShipP2 = false;
-        isOneShipP2 = false;
+        nameCurrentPlayer = namePlayer2;
 
         listButtonsKilledShipsPlayer1.clear();
         listButtonsKilledShipsPlayer2.clear();
-        listButtonsNotGameShipsP1.clear();
-        listButtonsNotGameShipsP2.clear();
-        xButtonsPlayer1.clear();
-        xButtonsPlayer2.clear();
+        listButtonsKilledShipsCurrentPlayer.clear();
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
