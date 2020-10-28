@@ -504,122 +504,6 @@ public class Controller implements Initializable {
         }
     }
 
-    // разблокировка ячеек после расстановки перед началом игры
-    private void setDisableFalseToButtons() {
-        for (int x = 0; x < 10; x++) {
-            for (int y = 0; y < 10; y++) {
-                buttonsCurrentPlayer[x][y].setDisable(false);
-                buttonsCurrentPlayer[x][y].setStyle("-fx-background-color: #eeeeee");
-                buttonsCurrentPlayer[x][y].setTextFill(Color.web("#eeeeee"));
-                if (buttonsCurrentPlayer[x][y].getText().equals("~"))
-                    buttonsCurrentPlayer[x][y].setText("");
-            }
-        }
-    }
-
-    // стрельба корабля
-    private void shootingShip() {
-        if (currentPressedBtn.getText().equals("+")) { // попадание
-            printStatusGame("Ранен! Стреляйте еще раз...");
-            currentPressedBtn.setTextFill(Color.web("#fafafa"));
-            currentPressedBtn.setStyle("-fx-background-color: #af4448;");
-            currentPressedBtn.setDisable(true);
-            countCellsCurrentPlayer--;
-            // проверка вокруг корабля
-            listButtonsKilledShipsCurrentPlayer.add(currentPressedBtn);
-            if (!isAroundNotKilledShips()) {
-                for (Button btn : listButtonsKilledShipsCurrentPlayer)
-                    paintAroundKilledShips(btn);
-                listButtonsKilledShipsCurrentPlayer.clear();
-                printStatusGame("Убит! Стреляйте еще раз...");
-            }
-            // если убиты все корабли
-            if (countCellsCurrentPlayer == 0)
-                win();
-        } else { // промах
-            currentPressedBtn.setStyle("-fx-background-color: #0093c4;");
-            currentPressedBtn.setDisable(true);
-            reversPlayer();
-            printStatusGame("Промах! Сейчас стреляет " + nameCurrentPlayer + "...");
-        }
-    }
-
-    // проверка ячеек вокруг раненого карабля
-    private boolean isAroundNotKilledShips() {
-        boolean answer = false;
-
-        for (Button btn : listButtonsKilledShipsCurrentPlayer) {
-            initXY(btn.getId());
-            for (int ox = -1; ox < 2; ox++) {
-                for (int oy = -1; oy < 2; oy++) {
-                    if (checkInsideArray(x + ox, y + oy)) {
-                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee"))
-                            answer = true;
-                    }
-                }
-            }
-        }
-
-        System.out.println(nameCurrentPlayer + " " + answer);
-        return answer;
-    }
-
-    // закрашивание ячеек вокруг убитого карабля
-    private void paintAroundKilledShips(Button btn) {
-        initXY(btn.getId());
-        for (int ox = -1; ox < 2; ox++) {
-            for (int oy = -1; oy < 2; oy++) {
-                if (checkInsideArray(x + ox, y + oy)) {
-                    if (!buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+")) {
-                        buttonsCurrentPlayer[x + ox][y + oy].setDisable(true);
-                        buttonsCurrentPlayer[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
-                    }
-                }
-            }
-        }
-    }
-
-    // конец игры и объявление победителя игры
-    private void win() {
-        printStatusGame("Выиграл " + nameCurrentPlayer + "!");
-        panePlayer1.setDisable(true);
-        panePlayer2.setDisable(true);
-        btnNewGame.setVisible(true);
-        openStageWin(); // всплывающее поздравительное окно в конце игры
-        paintUndetectedShips(); // отображение (закрашивание) необнаруженных кораблей после окончания игры
-    }
-
-    // отображение (закрашивание) необнаруженных кораблей после окончания игры
-    private void paintUndetectedShips() {
-        for (int x = 0; x < 10; x++) {
-            for (int y = 0; y < 10; y++) {
-                if (buttonsPlayer1[x][y].getStyle().equals("-fx-background-color: #eeeeee") && buttonsPlayer1[x][y].getText().equals("+")) {
-                    buttonsPlayer1[x][y].setStyle("-fx-background-color: #c8a415");
-                    buttonsPlayer1[x][y].setTextFill(Color.web("#fafafa"));
-                }
-                if (buttonsPlayer2[x][y].getStyle().equals("-fx-background-color: #eeeeee") && buttonsPlayer2[x][y].getText().equals("+")) {
-                    buttonsPlayer2[x][y].setStyle("-fx-background-color: #c8a415");
-                    buttonsPlayer2[x][y].setTextFill(Color.web("#fafafa"));
-                }
-            }
-        }
-
-    }
-
-    // всплывающее поздравительное окно в конце игры
-    private void openStageWin() {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("../ViewStage/win.fxml"));
-            Stage stage = new Stage();
-            stage.setTitle("Отличная работа, боец!");
-            stage.setResizable(false);
-            stage.setScene(new Scene(root));
-            stage.getIcons().add(new Image(getClass().getResourceAsStream("../medal.png")));
-            stage.show();
-        } catch (Exception e) {
-        }
-    }
-
     // размещение корабля
     private void placementShip() {
         printStatusGame("Игроки, представьтесь и расставьте корабли...");
@@ -761,6 +645,81 @@ public class Controller implements Initializable {
         }
     }
 
+    // разблокировка ячеек после расстановки перед началом игры
+    private void setDisableFalseToButtons() {
+        for (int x = 0; x < 10; x++) {
+            for (int y = 0; y < 10; y++) {
+                buttonsCurrentPlayer[x][y].setDisable(false);
+                buttonsCurrentPlayer[x][y].setStyle("-fx-background-color: #eeeeee");
+                buttonsCurrentPlayer[x][y].setTextFill(Color.web("#eeeeee"));
+                if (buttonsCurrentPlayer[x][y].getText().equals("~"))
+                    buttonsCurrentPlayer[x][y].setText("");
+            }
+        }
+    }
+
+    // стрельба корабля
+    private void shootingShip() {
+        if (currentPressedBtn.getText().equals("+")) { // попадание
+            printStatusGame("Ранен! Стреляйте еще раз...");
+            currentPressedBtn.setTextFill(Color.web("#fafafa"));
+            currentPressedBtn.setStyle("-fx-background-color: #af4448;");
+            currentPressedBtn.setDisable(true);
+            countCellsCurrentPlayer--;
+            // проверка вокруг корабля
+            listButtonsKilledShipsCurrentPlayer.add(currentPressedBtn);
+            if (!isAroundNotKilledShips()) {
+                for (Button btn : listButtonsKilledShipsCurrentPlayer)
+                    paintAroundKilledShips(btn);
+                listButtonsKilledShipsCurrentPlayer.clear();
+                printStatusGame("Убит! Стреляйте еще раз...");
+            }
+            // если убиты все корабли
+            if (countCellsCurrentPlayer == 0)
+                win();
+        } else { // промах
+            currentPressedBtn.setStyle("-fx-background-color: #0093c4;");
+            currentPressedBtn.setDisable(true);
+            reversPlayer();
+            printStatusGame("Промах! Сейчас стреляет " + nameCurrentPlayer + "...");
+        }
+    }
+
+    // проверка ячеек вокруг раненого карабля
+    private boolean isAroundNotKilledShips() {
+        boolean answer = false;
+
+        for (Button btn : listButtonsKilledShipsCurrentPlayer) {
+            initXY(btn.getId());
+            for (int ox = -1; ox < 2; ox++) {
+                for (int oy = -1; oy < 2; oy++) {
+                    if (checkInsideArray(x + ox, y + oy)) {
+                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy].getStyle().equals("-fx-background-color: #eeeeee"))
+                            answer = true;
+                    }
+                }
+            }
+        }
+
+        System.out.println(nameCurrentPlayer + " " + answer);
+        return answer;
+    }
+
+    // закрашивание ячеек вокруг убитого карабля
+    private void paintAroundKilledShips(Button btn) {
+        initXY(btn.getId());
+        for (int ox = -1; ox < 2; ox++) {
+            for (int oy = -1; oy < 2; oy++) {
+                if (checkInsideArray(x + ox, y + oy)) {
+                    if (!buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+")) {
+                        buttonsCurrentPlayer[x + ox][y + oy].setDisable(true);
+                        buttonsCurrentPlayer[x + ox][y + oy].setStyle("-fx-background-color: #0093c4");
+                    }
+                }
+            }
+        }
+    }
+
     // проверка на вхождение в игровое поле
     private boolean checkInsideArray(int x, int y) {
         return (x >= 0 && x < 10) && (y < 10 && y >= 0);
@@ -769,6 +728,47 @@ public class Controller implements Initializable {
     // вывод на экран статуса игры
     private void printStatusGame(String text) {
         lblStatusGame.setText(text);
+    }
+
+    // отображение (закрашивание) необнаруженных кораблей после окончания игры
+    private void paintUndetectedShips() {
+        for (int x = 0; x < 10; x++) {
+            for (int y = 0; y < 10; y++) {
+                if (buttonsPlayer1[x][y].getStyle().equals("-fx-background-color: #eeeeee") && buttonsPlayer1[x][y].getText().equals("+")) {
+                    buttonsPlayer1[x][y].setStyle("-fx-background-color: #c8a415");
+                    buttonsPlayer1[x][y].setTextFill(Color.web("#fafafa"));
+                }
+                if (buttonsPlayer2[x][y].getStyle().equals("-fx-background-color: #eeeeee") && buttonsPlayer2[x][y].getText().equals("+")) {
+                    buttonsPlayer2[x][y].setStyle("-fx-background-color: #c8a415");
+                    buttonsPlayer2[x][y].setTextFill(Color.web("#fafafa"));
+                }
+            }
+        }
+
+    }
+
+    // конец игры и объявление победителя игры
+    private void win() {
+        printStatusGame("Выиграл " + nameCurrentPlayer + "!");
+        panePlayer1.setDisable(true);
+        panePlayer2.setDisable(true);
+        btnNewGame.setVisible(true);
+        openStageWin(); // всплывающее поздравительное окно в конце игры
+        paintUndetectedShips(); // отображение (закрашивание) необнаруженных кораблей после окончания игры
+    }
+
+    // всплывающее поздравительное окно в конце игры
+    private void openStageWin() {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("../ViewStage/win.fxml"));
+            Stage stage = new Stage();
+            stage.setTitle("Отличная работа, боец!");
+            stage.setResizable(false);
+            stage.setScene(new Scene(root));
+            stage.getIcons().add(new Image(getClass().getResourceAsStream("../medal.png")));
+            stage.show();
+        } catch (Exception e) {
+        }
     }
 
     // нажатие кнопки "Новая игра"
