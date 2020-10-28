@@ -552,7 +552,10 @@ public class Controller implements Initializable {
                     countCellsCurrentPlayer += listCurrentAddShip.size();
                 } else {
                     cancelShip(); // отмена расставленного корабля
-                    printStatusGame("Ошибка! Все " + listCurrentAddShip.size() + "-палубные корабли уже расставлены");
+                    if (listCurrentAddShip.size() > 4)
+                        printStatusGame("Ошибка: " + listCurrentAddShip.size() + "-палубный корабль ставить запрещено!");
+                    else
+                        printStatusGame("Ошибка: все " + listCurrentAddShip.size() + "-палубные корабли уже расставлены!");
                 }
                 listCurrentAddShip.clear();
             }
