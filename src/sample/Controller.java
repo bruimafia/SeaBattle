@@ -622,6 +622,7 @@ public class Controller implements Initializable {
 
     // размещение корабля
     private void placementShip() {
+        printStatusGame("Игроки, представьтесь и расставьте корабли...");
         if (currentPressedBtn.getText().equals("")) {
             currentPressedBtn.setText("+");
             currentPressedBtn.setStyle("-fx-background-color: #aeaeae;");
@@ -665,8 +666,10 @@ public class Controller implements Initializable {
                     setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
                     setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
                     countCellsCurrentPlayer += listCurrentAddShip.size();
-                } else
+                } else {
                     cancelShip(); // отмена расставленного корабля
+                    printStatusGame("Ошибка! Все " + listCurrentAddShip.size() + "-палубные корабли уже расставлены");
+                }
                 listCurrentAddShip.clear();
             }
         }
@@ -790,6 +793,9 @@ public class Controller implements Initializable {
         btnReadyPlayer2.setVisible(true);
         btnReadyPlayer2.setDisable(true);
 
+        buttonsCurrentPlayer = buttonsPlayer1;
+        listCurrentAddShip.clear();
+
         countCellsPlayer1 = 0;
         countCellsPlayer2 = 0;
         countCellsCurrentPlayer = countCellsPlayer1;
@@ -798,11 +804,19 @@ public class Controller implements Initializable {
 
         namePlayer1 = "Игрок 1";
         namePlayer2 = "Игрок 2";
-        nameCurrentPlayer = namePlayer2;
+        nameCurrentPlayer = namePlayer1;
 
         listButtonsKilledShipsPlayer1.clear();
         listButtonsKilledShipsPlayer2.clear();
         listButtonsKilledShipsCurrentPlayer.clear();
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 4; j++) {
+                armorPlayer1[i][j] = 0;
+                armorPlayer2[i][j] = 0;
+            }
+        }
+        armorCurrentPlayer = armorPlayer1;
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
