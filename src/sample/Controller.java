@@ -95,7 +95,7 @@ public class Controller implements Initializable {
     private final List<Button> listButtonsKilledShipsPlayer2 = new ArrayList<>();
     private List<Button> listButtonsKilledShipsCurrentPlayer = new ArrayList<>();
     // имена игроков (по умолчанию)
-    private String namePlayer1 = "Игрок 1", namePlayer2 = "Игрок 2", nameCurrentPlayer = namePlayer2;
+    private String namePlayer1 = "Игрок 1", namePlayer2 = "Игрок 2", nameCurrentPlayer = namePlayer1;
     // количество кораблей (ячеек) игроков
     private int countCellsPlayer1 = 0, countCellsPlayer2 = 0, countCellsCurrentPlayer = countCellsPlayer1;
     // расставленное вооружение каждого игрока
@@ -460,7 +460,7 @@ public class Controller implements Initializable {
         lblPlayer2.setText(namePlayer2);
         tfPlayer2.setVisible(false);
         btnReadyPlayer2.setVisible(false);
-        printStatusGame("Бой начался! Стреляет " + namePlayer1 + "...");
+        printStatusGame("Бой начался! Стреляет " + namePlayer2 + "...");
         setDisableFalseToButtons(); // разблокировка ячеек после расстановки перед началом игры
         reversPlayer(); // переключение между игроками
         isGame = true;
