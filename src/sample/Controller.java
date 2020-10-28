@@ -10,7 +10,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
-import javafx.scene.layout.GridPane;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
@@ -71,6 +72,8 @@ public class Controller implements Initializable {
     private Label lblPlayer1, lblPlayer2, lblStatusGame;
     @FXML
     private TextField tfPlayer1, tfPlayer2;
+    @FXML
+    private ImageView test;
 
 
 
@@ -82,6 +85,8 @@ public class Controller implements Initializable {
     // текущая нажатая кнопка и координаты этой кнопки
     private Button currentPressedBtn = new Button();
     private int x = 0, y = 0;
+    // количество всех ячеек для одного игрока (по умолчанию 20)
+    private int countAllCells = 20;
     // текущий размер расставляемого корабля
     private List<String> listCurrentAddShip = new ArrayList<>();
     // расстановка или игра
@@ -513,13 +518,13 @@ public class Controller implements Initializable {
             checkAddShip(); // проверяем, продолжаем ли мы ставить тот же корабль или ставим новый
             initXY(currentPressedBtn.getId());
             setColorTabooCellsAroundShip();
-            if (countCellsCurrentPlayer >= 20 && isPLayer1) {
+            if (countCellsCurrentPlayer >= countAllCells && isPLayer1) {
                 panePlayer1.setDisable(true);
                 btnReadyPlayer1.setDisable(false);
                 cancelShip();
                 listCurrentAddShip.clear();
             }
-            if (countCellsCurrentPlayer >= 20 && !isPLayer1) {
+            if (countCellsCurrentPlayer >= countAllCells && !isPLayer1) {
                 panePlayer2.setDisable(true);
                 btnReadyPlayer2.setDisable(false);
                 cancelShip();
