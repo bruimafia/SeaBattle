@@ -86,7 +86,7 @@ public class Controller implements Initializable {
     private Button currentPressedBtn = new Button();
     private int x = 0, y = 0;
     // количество всех ячеек для одного игрока (по умолчанию 20)
-    private int countAllCells = 20;
+    private final int countAllCells = 20;
     // текущий размер расставляемого корабля
     private List<String> listCurrentAddShip = new ArrayList<>();
     // расстановка или игра
@@ -543,8 +543,11 @@ public class Controller implements Initializable {
             for (int ox = -1; ox < 2; ox++) {
                 for (int oy = -1; oy < 2; oy++) {
                     if (checkInsideArray(x + ox, y + oy)) {
-                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy] != buttonsCurrentPlayer[x][y])
+                        if (buttonsCurrentPlayer[x + ox][y + oy].getText().equals("+") && buttonsCurrentPlayer[x + ox][y + oy] != buttonsCurrentPlayer[x][y]) {
                             answer = true;
+                            listCurrentAddShip.add(currentPressedBtn.getId());
+                            autoPaintAroundShip();
+                        }
                     }
                 }
             }
@@ -557,17 +560,42 @@ public class Controller implements Initializable {
                     countCellsCurrentPlayer += listCurrentAddShip.size();
                 } else {
                     cancelShip(); // отмена расставленного корабля
-                    if (listCurrentAddShip.size() > 4)
-                        printStatusGame("Ошибка: " + listCurrentAddShip.size() + "-палубный корабль ставить запрещено!");
-                    else
-                        printStatusGame("Ошибка: все " + listCurrentAddShip.size() + "-палубные корабли уже расставлены!");
+                    printStatusGame("Ошибка: все " + listCurrentAddShip.size() + "-палубные корабли уже расставлены!");
                 }
                 listCurrentAddShip.clear();
+                listCurrentAddShip.add(currentPressedBtn.getId());
             }
+        } else {
+            listCurrentAddShip.add(currentPressedBtn.getId());
+            autoPaintAroundShip();
         }
-        listCurrentAddShip.add(currentPressedBtn.getId());
 
         System.out.println("Лист ПОСЛЕ = " + listCurrentAddShip.size() + "    " + listCurrentAddShip.toString() + "\n");
+    }
+
+    // автоматическон закрашивание вокруг корабля
+    private void autoPaintAroundShip() {
+        if (listCurrentAddShip.size() == 4 && isNotMaxCountShip(listCurrentAddShip.size())) {
+            setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
+            setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
+            countCellsCurrentPlayer += listCurrentAddShip.size();
+            listCurrentAddShip.clear();
+        } else if (listCurrentAddShip.size() == 3 && isNotMaxCountShip(listCurrentAddShip.size()) && !isNotMaxCountShip(listCurrentAddShip.size() + 1)) {
+            setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
+            setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
+            countCellsCurrentPlayer += listCurrentAddShip.size();
+            listCurrentAddShip.clear();
+        } else if (listCurrentAddShip.size() == 2 && isNotMaxCountShip(listCurrentAddShip.size()) && !isNotMaxCountShip(listCurrentAddShip.size() + 1) && !isNotMaxCountShip(listCurrentAddShip.size() + 2)) {
+            setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
+            setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
+            countCellsCurrentPlayer += listCurrentAddShip.size();
+            listCurrentAddShip.clear();
+        } else if (listCurrentAddShip.size() == 1 && isNotMaxCountShip(listCurrentAddShip.size()) && !isNotMaxCountShip(listCurrentAddShip.size() + 1) && !isNotMaxCountShip(listCurrentAddShip.size() + 2) && !isNotMaxCountShip(listCurrentAddShip.size() + 3)) {
+            setColorAroundShip(); // закрашивание ячеек вокруг установленного корабля
+            setArmorPlayer(listCurrentAddShip.size()); // запись расставленого корабля
+            countCellsCurrentPlayer += listCurrentAddShip.size();
+            listCurrentAddShip.clear();
+        }
     }
 
     // закрашивание ячеек вокруг установленного корабля
