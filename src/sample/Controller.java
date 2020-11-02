@@ -72,8 +72,6 @@ public class Controller implements Initializable {
     private Label lblPlayer1, lblPlayer2, lblStatusGame;
     @FXML
     private TextField tfPlayer1, tfPlayer2;
-    @FXML
-    private ImageView test;
 
 
 
