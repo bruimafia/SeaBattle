@@ -695,7 +695,7 @@ public class Controller implements Initializable {
     // стрельба корабля
     private void shootingShip() {
         if (currentPressedBtn.getText().equals("+")) { // попадание
-            printStatusGame("Ранен! Стреляйте еще раз...");
+            printStatusGame("Ранен! " + nameCurrentPlayer + ", стреляй еще раз...");
             currentPressedBtn.setTextFill(Color.web("#fafafa"));
             currentPressedBtn.setStyle("-fx-background-color: #af4448;");
             currentPressedBtn.setDisable(true);
@@ -706,7 +706,7 @@ public class Controller implements Initializable {
                 for (Button btn : listButtonsKilledShipsCurrentPlayer)
                     paintAroundKilledShips(btn);
                 listButtonsKilledShipsCurrentPlayer.clear();
-                printStatusGame("Убит! Стреляйте еще раз...");
+                printStatusGame("Убит! " + nameCurrentPlayer + ", стреляй еще раз...");
             }
             // если убиты все корабли
             if (countCellsCurrentPlayer == 0)
